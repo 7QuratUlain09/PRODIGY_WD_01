@@ -1,0 +1,1 @@
+This project implements an interactive, fixed-position navigation menu that enhances user experience by changing its background color and font color when the user scrolls or hovers over a menu item. The menu is designed to be responsive and remains visible on all pages.
