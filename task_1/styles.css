@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(13, 66, 13);
+    color: white;
+    display: flex;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: rgb(10, 51, 10);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: color 0.3s;
+    padding-right: 44px;
+}
+
+
+.nav-links a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px; /* space for fixed navbar */
+    
+}
+
+
+section:nth-child(odd) {
+    background-color: #e2f0d9;
+}
+
+section:nth-child(even) {
+    background-color: #93b897;
+}
+
+.welcome{
+    background-color: rgb(18, 63, 18);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 8px;
+}
+
+#home {
+    background: url('greens.jpg') no-repeat center center;
+    background-size: cover;
+    color: whitesmoke; /* Change text color for better visibility */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product-gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('istockphoto-1352242991-1024x1024.jpg');
+    
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+    padding: 20px;
+    padding-right: 55px;
+    /* background-color: rgb(22, 73, 22); */
+    color: white;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 50px;
+    margin-left:  60px;
+    font-size: 16px;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(64, 139, 64);
+    color: whitesmoke;
+    border-radius: 15px;
+}
